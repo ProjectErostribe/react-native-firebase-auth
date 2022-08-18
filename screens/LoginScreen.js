@@ -8,7 +8,7 @@ import {
   TextInput,
   TouchableOpacity,
 } from "react-native";
-import { auth } from "../firebase";
+import { auth } from "../utils/firebase";
 
 const LoginScreen = () => {
   const [email, setEmail] = useState("");
